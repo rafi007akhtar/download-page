@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Portfolio</title>
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    
+    <body>
+        <!-- NAVBAR -->
+        <nav id="navbar">
+            <ol>
+                <li class="nav-menu">
+                    <a href="#welcome-section">Welcome</a> &emsp;
+                </li>
+                <li class="nav-menu">
+                    <a href="#pro">Profession</a> &emsp;
+                </li>
+                <li class="nav-menu">
+                    <a href="#edu">Education</a> &emsp;
+                </li>
+                <li class="nav-menu">
+                    <a href="#projects">Projects</a> &emsp;
+                </li>
+                <li class="nav-menu">
+                    <a href="#hobby">Hobbies</a> &emsp;
+                </li>
+                <li class="nav-menu">
+                    <a href="#contact">Contact</a> &emsp;
+                </li>
+            </ol>
+        </nav>
+        
+        <!-- WELCOME -->
+        <section id="welcome-section">
+            <div id="my_pic">
+                <img src="rafi_pic.jpg" alt="Md Rafi Akhtar">
+            </div>
+            
+            <div id="about_text" class="section-text">
+                <h1>Welcome</h1>
+                <p>Hi, I'm Rafi! I am a Systems Engineer currently working in TCS, Pune.</p>
+                
+                <p>I was born and brought up in Kolkata. I completed my schooling from St. Sebastian's School, and underwent a 4-year engineering course in Computer Science and Engineering from University of Engineering &amp; Management, Kolkata.</p>
+                
+                <p>I like to work in the field of Artificial Intelligence, Machine Learning and Deep Learning, but I also like creating apps and websites using different technology stacks. My hobbies include playing cricket, reading books and comic books, and watching movies and TV series.</p>
+            </div>
+        </section>
+        
+        <!-- PROFESSION -->
+        <section id="pro">
+            <h1 class="section-text">Profession</h1>
+            
+            <div id="pro_text" class="section-text">
+                <div id="present" class="pro_list">
+                    <h3>Present</h3>
+                    <ul type="none">
+                        <li><strong>- Systems Engineer</strong> in <strong><a href="https://www.tcs.com/" target="_blank">Tata Consultancy Services Limited</a>, Pune.</strong></li>
+                        <li>- Works in the fields of <strong>UI / UX</strong>.</li>
+                    </ul>
+                </div>
+                
+                <div id="past" class="pro_list">
+                    <h3>Past</h3>
+                    <ol>
+                        <li><strong>Learning Enabler</strong> in <strong><a href="https://www.tcs.com/" target="_blank">Tata Consultancy Services Limited</a>, Pune.</strong></li>
+                        <li><strong>Intern</strong> in <strong><a href="https://www.ascentspark.com/" target="_blank">AscentSpark Limited</a>, Kolkata</strong>.</li>
+                    </ol>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- EDUCATION -->
+        <section id="edu">
+            <h1 class="section-text">Education</h1>
+            
+            <div id="college" class="section-text">
+                <h3>College</h3>
+                <ul type="none">
+                    <li>- <strong>Bachelors in Technology</strong> from <strong><a href="https://uem.edu.in/uem-kolkata/" target="_blank">University of Engineering &amp; Management, Kolkata</a></strong>.</li>
+                    <li>- Department: <strong>Computer Science and Engineering</strong></li>
+                    <li>- Duration: <strong>2015—2019</strong></li>
+                    <li>
+                        - Notable subjects:
+                        <ul type="square">
+                            <li>Design and Analysis of Algorithms</li>
+                            <li>Data Structures</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Object Oriented Programming with Java</li>
+                            <li>Operating Systems</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="school" class="section-text">
+                <h3>Schooling</h3>
+                <ul type="none">
+                    <li>- <strong>Standard Twelve (XII)</strong> from <strong>St. Sebastian's School</strong>  with notable subjects as Computer Science, Physics, Chemistry, Mathematics, English.</li>
+                    <li>- <strong>Standard Ten (X)</strong> from <strong>St. Sebastian's School</strong> with notable subjects as Computer Applications, Physics, Chemistry, Mathematics, English.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- PROJECTS -->
+        <section id="projects"  class="section-text">
+            <h1>Projects</h1>
+            <p>The following are some of my favorite projects, ranging from topics like web development to artificial intelligence.</p>
+            
+            <div id="sudoku" class="project-title ">
+                <h3><a href="https://github.com/rafi007akhtar/SudokuSolver" target="_blank">Sudoku Solver</a></h3>
+                <div id="sudoku_container">
+                    <img src="sudoku.png" alt="Sudoku solving in Pygame">
+                    <ul type="none">
+                        <li>- The first project in Udacity's Artificial Intelligence Nanodegree programme.</li>
+                        <li>- Solves arguably any Sudoku Puzzle in the world, including Diamond Sudokus.</li>
+                        <li>- Uses basic AI techniques for solving the Sudoku puzzle.</li>
+                        <li>- Technology stack: Python3, Pygame, Depth First Search.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="shell" class="project-title ">
+                <h3><a href="https://github.com/rafi007akhtar/oslab/tree/master/Simple-UNIX-shell" target="_blank">Simple Unix Shell</a></h3>
+                <div id="shell_container">
+                    <img src="shell.png" alt="Linux Shell Emulator">
+                    <ul type="none">
+                        <li>- Emulates a basic Linux Terminal.</li>
+                        <li>- Can run most of the Linux Shell commands.</li>
+                        <li>- Contains a few additional commands of its own.</li>
+                        <li>- Technology stack: C, process management.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="classifier" class="project-title ">
+                <h3><a href="https://github.com/rafi007akhtar/coursera-tensorflow/blob/master/Exercise_5_Question.ipynb">Image Classifier</a></h3>
+                <ul type="none">
+                    <li>- Uses convolutional neural networks to classifiy between cats and dogs.</li>
+                    <li>- You can test it with your own custom image!</li>
+                    <li>- Technology stack: Tensorflow 2.0 (early release).</li>
+                </ul>
+            </div>
+            
+            There are far more projects contained on my <a href="https://github.com/rafi007akhtar" target="_blank" id="profile-link">GitHub Page!</a>
+        </section>
+        
+        
+        <!-- HOBBIES -->
+        
+        <section id="hobby" class="section-text">
+            <h1>Hobbies</h1>
+            
+            <ul>
+                <li>Reading novels and comics</li>
+                <li>Watching movies and TV shows</li>
+                <li>Playing cricket</li>
+            </ul>
+        
+        </section>
+        
+        <!-- CONTACT -->
+        
+        <section id="contact" class="section-text">
+            <h1>Contact</h1>
+            You may contact me via email: <a href="mailto:alimdrafi@gmail.com">alimdrafi@gmail.com</a>
+            
+        </section>
+        
+        
+    </body>
+</html>
