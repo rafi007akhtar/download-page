@@ -17,3 +17,5 @@ cd download-page
 node index.js https://rafi007akhtar.github.io/fend-project-memory-game/
 ```
 
+## License
+[MIT License](License)
